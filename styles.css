@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+
 .logo-bioleo{
     display: flex;
     align-items: center;
@@ -7,6 +12,7 @@
 .logo-bioleo1{
    max-width: 600px;
     width: 100%;
+    padding-top: 60px;
 }
 
 .name-of-company{
@@ -25,6 +31,7 @@
     padding: 0 20px;
     background: #FFC107;
     border-radius: 20px;
+    margin: 0 10px;
 }
 
 .bioleo1{
@@ -36,6 +43,7 @@
     align-items: center;
     gap: 1rem;
     margin-top: 30px;
+    padding: 0 20px;
 }
 
 .photo-about-company1{
@@ -77,6 +85,7 @@
 
 .advantages{
     margin-top: 20px;
+    padding: 0 20px;
 }
 
 .pre-advantage{
@@ -91,8 +100,11 @@
 .contacts{
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 0.5rem;
+    background: #FFC107;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
 }
 
 .contacts1{
@@ -102,3 +114,88 @@
     cursor: pointer;
     text-decoration: none;
 }
+
+
+.header{
+    padding-left: 10px;
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    flex-direction: row-reverse;
+    background: #FFC107;
+    position: fixed;
+    width: 100%;
+}
+
+.container-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.ua{
+    background: none;
+    border: 2px solid #000000;
+    height: 30px;
+}
+
+.ua1{
+    color: #000000;
+    text-decoration: none;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    color: black;
+    border: 2px solid black;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #FFC107;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 2px solid black;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-weight: 700;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+

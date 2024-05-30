@@ -8,23 +8,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
 </head>
+
 <body>
+<div class="header">
+    <div id="main" class="container-menu">
+        <div class="lang-buttons">
+            <button class="ua"><a class="ua1" href="#">UA</a></button>
+            <button class="ua"><a class="ua1" href="english-version.html">EN</a></button>
+        </div>
+        <button class="openbtn" onclick="openNav()">☰</button>
+    </div>
+</div>
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#aboutCompany">Про компанію</a>
+    <a href="#expireince">Наш досвід</a>
+    <a href="#advantages">Переваги</a>
+    <a href="#contacts">Контакти</a>
+</div>
 <div class="logo-bioleo">
     <img class="logo-bioleo1" src="images/logo3.png">
 </div>
 <div class="name-of-company">
 <p class="bioleo">БІОЛЕО</p>
 </div>
-<div class="name-of-company name-of-company1">
+<div id="aboutCompany" class="name-of-company name-of-company1">
     <p class="bioleo bioleo1">Українська компанія, що займається купівлею, продажем
         та транспортуванням відходів (зокрема використаної кулінарної олії) задля перетворення їх на біопаливо
     </p>
 </div>
-<div class="about-company">
+<div class="about-company" id="expireince">
 <div class="photo-about-company">
-    <img class="photo-about-company1" src="images/xya0p6r9_771x517-17119.jpeg">
+    <img class="photo-about-company1" src="images/traider.jpeg">
 </div>
-    <div class="text-about-company">
+    <div class="text-about-company" >
         <p class="text-about-company1">
             Наш досвід та репутація у галузі харчових технологій, ресторанному бізнесі, сільському господарстві,
             експортно-імпортній діяльності, розрібно-гуртовій торгівлі та управлінні проектами допомагає нам бачити
@@ -34,7 +51,7 @@
         </p>
     </div>
 </div>
-<div class="advantages">
+<div class="advantages" id="advantages">
     <div class="advantages1">
         <div class="squer"></div>
         <p class="text-advantages">Ми платимо за відпрацьовану олію, яка часто просто викидається</p>
@@ -69,9 +86,11 @@
         й щирому спілкуванню
     </p>
 </div>
-<div class="contacts">
-    <a class="contacts1" href="tel:+380662074132">0662074132</a>
+<div class="contacts" id="contacts">
+    <p class="bioleo">Контакти</p>
+    <a class="contacts1" href="tel:+380662074132">+38 066 207 41 32</a>
     <a class="contacts1" href="mailto:bioleoua@gmail.com">bioleoua@gmail.com</a>
 </div>
 </body>
+<script src="script.js"></script>
 </html>
