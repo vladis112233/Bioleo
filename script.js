@@ -25,3 +25,13 @@ links.forEach(function(link) {
         });
     });
 });
+
+document.addEventListener('scroll', function () {
+    const bioleoMan = document.querySelector('.bioleo-man');
+    const rect = bioleoMan.getBoundingClientRect();
+    const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+
+    if (rect.top <= windowHeight && rect.bottom >= 0) {
+        bioleoMan.classList.add('visible');
+    }
+});
