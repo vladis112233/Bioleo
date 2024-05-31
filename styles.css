@@ -113,7 +113,7 @@ body{
     background: #355595;
     padding-bottom: 10px;
     padding-left: 10px;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
 }
 
 .contacts1{
@@ -334,4 +334,58 @@ body{
     width: 300px;
     margin: 0 auto;
     color: #355595;
+}
+
+.anketa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #eb913b;
+    color: #355595;
+    padding-bottom: 40px;
+    width: 60%;
+    margin: 0 auto;
+    border-start-start-radius: 50px;
+    border-start-end-radius: 50px;
+}
+
+@media (max-width :500px){
+    .anketa{
+        width: 80%;
+    }
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+
+.point-of-form{
+    font-weight: 600;
+}
+
+.point-of-form1{
+    max-width: 400px;
+    height: 20px;
+    border: 2px solid #355595;
+    border-radius: 6px;
+    background: #eb913b;
+}
+
+.button-of-form{
+    height: 30px;
+    border: 2px solid #355595;
+    border-radius: 6px;
+    background: #eb913b;
+    color: #355595;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.div-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 60px;
 }

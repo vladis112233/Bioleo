@@ -12,10 +12,6 @@
 <body>
 <div class="header">
     <div id="main" class="container-menu">
-        <div class="lang-buttons">
-            <button class="ua"><a class="ua1" href="#">UA</a></button>
-            <button class="ua"><a class="ua1" href="english-version.html">EN</a></button>
-        </div>
         <button class="openbtn" onclick="openNav()">☰</button>
     </div>
 </div>
@@ -30,7 +26,6 @@
     <img class="logo-bioleo1" src="images/logo4.png">
 </div>
 <div class="name-of-company">
-<!--<p class="bioleo">БІОЛЕО</p>-->
 </div>
 <div id="aboutCompany" class="name-of-company name-of-company1">
     <p class="bioleo bioleo1">Українська компанія, що займається купівлею, продажем
@@ -121,6 +116,47 @@
     <p class="pre-advantage1">Звертайтесь до нас за допомогою, консультаціями та з пропозиціями. Завжди раді співпраці
         й щирому спілкуванню
     </p>
+</div>
+
+<div class="anketa">
+    <h1>Анкета</h1>
+    <form id="surveyForm" class="forms">
+        <div class="div-form">
+            <label class="point-of-form" for="nameRestaurant">Назва ресторану:</label>
+            <input class="point-of-form1" type="text" id="nameRestaurant" name="nameRestaurant" required><br><br>
+        </div>
+
+        <div class="div-form">
+            <label class="point-of-form" for="adress">Адреса:</label>
+            <input class="point-of-form1" type="text" id="adress" name="adress" required><br><br>
+        </div>
+
+        <div class="div-form">
+            <label class="point-of-form" for="email">Email:</label>
+            <input class="point-of-form1" type="email" id="email" name="email" required><br><br>
+        </div>
+
+        <div class="div-form">
+            <label class="point-of-form" for="phone">Телефон:</label>
+            <input class="point-of-form1" type="number" id="phone" name="phone" required><br><br>
+        </div>
+
+        <div class="div-form">
+            <label class="point-of-form" for="turnover">Середній обсяг олії в місяць:</label>
+            <input class="point-of-form1" type="number" id="turnover" name="turnover" required><br><br>
+        </div>
+
+        <div class="div-form">
+            <label class="point-of-form" for="name">Ім'я:</label>
+            <input class="point-of-form1" type="text" id="name" name="name" required><br><br>
+        </div>
+
+
+<!--        <label for="feedback">Отзыв:</label>-->
+<!--        <textarea id="feedback" name="feedback" required></textarea><br><br>-->
+
+        <button class="button-of-form" type="submit">Надіслати</button>
+    </form>
 </div>
 
 <div class="contacts" id="contacts">
