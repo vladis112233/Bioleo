@@ -344,8 +344,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #eb913b;
-    color: #355595;
+    /*background: #eb913b;*/
+    color: #eb913b;
     padding-bottom: 40px;
     width: 60%;
     margin: 0 auto;
@@ -371,17 +371,17 @@ body{
 .point-of-form1{
     max-width: 400px;
     height: 20px;
-    border: 2px solid #355595;
+    border: 2px solid #eb913b;
     border-radius: 6px;
-    background: #eb913b;
+    /*background: #eb913b;*/
 }
 
 .button-of-form{
     height: 30px;
-    border: 2px solid #355595;
+    border: 2px solid #eb913b;
     border-radius: 6px;
-    background: #eb913b;
-    color: #355595;
+    /*background: #eb913b;*/
+    color: #eb913b;
     font-size: 15px;
     font-weight: 800;
     cursor: pointer;
