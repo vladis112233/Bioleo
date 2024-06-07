@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $turnover = htmlspecialchars($_POST['turnover']);
     $name = htmlspecialchars($_POST['name']);
 
-    $to = "grachev01112000@gmail.com";
+    $to = "bioleoua@gmail.com";
     $subject = "Анкета з сайту";
     $message = "Назва ресторану: $nameRestaurant\nАдреса: $adress\nEmail: $email\nТелефон: $phone\nСередній обсяг олії в місяць: $turnover\nІм'я: $name";
     $headers = "From: webmaster@example.com";
