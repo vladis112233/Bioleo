@@ -369,10 +369,12 @@ body{
 }
 
 .point-of-form1{
-    max-width: 400px;
-    height: 20px;
+    max-width: 600px;
+    height: 40px;
     border: 2px solid #eb913b;
     border-radius: 6px;
+    font-size: 18px;
+    padding-left: 4px;
     /*background: #eb913b;*/
 }
 
@@ -382,7 +384,7 @@ body{
     border-radius: 6px;
     background: none;
     color: #355595;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 800;
     cursor: pointer;
 }
@@ -391,11 +393,53 @@ body{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    height: 60px;
+    margin-bottom: 10px;
+    /*height: 60px;*/
 }
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+.anketa-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.anketa2{
+
+}
+
+.pre-advantage2{
+    margin-top: 20px;
+    padding: 0 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    /*max-width: 400px;*/
+}
+
+.point-of-form2{
+    resize: none;
+    border: 2px solid #eb913b;
+    border-radius: 6px;
+    height: 80px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+@media (max-width :500px){
+
+    .point-of-form2{
+        max-width: 300px;
+    }
+
+    .point-of-form1{
+        max-width: 300px;
+    }
 }
